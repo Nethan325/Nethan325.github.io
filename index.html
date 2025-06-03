@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nethan Paul Wimaladass | Mechanical Engineer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    header {
+      background: #003366;
+      color: #fff;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    nav {
+      background: #0055a5;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: #fff;
+      padding: 1rem;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background: #003366;
+    }
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 2rem;
+      background: #fff;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    h2 {
+      color: #003366;
+      border-bottom: 2px solid #0055a5;
+      padding-bottom: 0.3rem;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    footer {
+      background: #003366;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+  <style>
+      .clickable {
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .project-description {
+    display: none;
+    margin-bottom: 1em;
+  }
+
+  </style>
+  <script>
+    function toggleParagraph(projectDiv) {
+    const para = projectDiv.querySelector('.project-description');
+    para.style.display = para.style.display === 'none' ? 'block' : 'none';
+  }
+  </script>
+</head>
+<body>
+  <header>
+    <h1>Nethan Paul Wimaladass</h1>
+    <p>Mechanical Engineering Undergraduate | Mechatronics Minor | Innovator</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container">
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I am an eager mechanical engineering undergraduate, driven by a passion for translating theoretical knowledge into practical solutions. I aim to design sustainable, automated systems that contribute positively to industry and society.</p>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <ul>
+        <li>BScEngHons Mechanical Engineering (Reading), University of Sri Jayewardenepura<br />Minor: Mechatronics Engineering | GPA: 3.5 | 2021 - Present</li>
+        <li>Diploma in Gemmology [DGem(SL)] - Reading | 2025 - Present</li>
+        <li>Advanced Level (Maths Stream) - 2019 | Z-Score: 1.9971</li>
+        <li>Ordinary Level Examination - 2016</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <div class="project" onclick="toggleParagraph(this)">
+          <li class="clickable">Automatic Pet Feeder</li>
+          <p class="project-description">An Arduino-controlled pet feeder where the feeding quantity and time are taken as inputs from the user and feeds the pet accordingly.</p>
+        </div>
+        
+        <div class="project" onclick="toggleParagraph(this)">
+          <li class="clickable">Automated Guided Vehicle Modifications</li>
+          <p class="project-description">Made modifications to the AGV running in the slimline production plant. modifications include height limit, RFID location detection and obstacle sensor corrections.
+          </p>
+        </div>
+        
+        <div class="project" onclick="toggleParagraph(this)">
+          <li class="clickable">Automated Bra Slide Insertion Unit</li>
+          <p class="project-description">Designed and built an automated slide insertion unit to automatically insert bra slide into the strap which immensely accelerated production rate.
+          </p>
+        </div>
+
+        <div class="project" onclick="toggleParagraph(this)">
+          <li class="clickable">Strap Machine Selection System – Winner of Slimline Future Star Award</li>
+          <p class="project-description">An excel based machine selection system which selected the appropriate machine based on the type of product manufactured. The system went on to win the 1st place in the slimline future star awards.
+          </p>
+        </div>
+
+        <div class="project" onclick="toggleParagraph(this)">
+          <li class="clickable">Power Transmission System Design using SolidWorks</li>
+          <p class="project-description">Designed a model using Solidworks to transmit power from one motor to two different systems.
+          </p>
+        </div>
+
+        <div class="project" onclick="toggleParagraph(this)">
+          <li class="clickable">Automated Cover Seam Sewing Unit</li>
+          <p class="project-description">Designed and built a unit that automates a manual cover seam sewing machine and led the bulk production team
+          </p>
+        </div>
+
+        <div class="project" onclick="toggleParagraph(this)">
+          <li class="clickable">Automated Gem Faceting and Polishing Machine (Ongoing)</li>
+          <p class="project-description">Working on a machine that is controlled using an HMI to cut and polish the gem.
+          </p>
+        </div>
+       
+      </ul>
+    </section>
+
+    <section id="experience">
+      <h2>Work Experience</h2>
+      <p><strong>Autonomation Intern</strong> – MAS Slimline PVT LTD (2024)<br />Worked in mechatronics, R&D, and bulk production supervision.</p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>SolidWorks, MATLAB</li>
+        <li>Arduino & PLC Programming</li>
+        <li>C++, Atmel AVR Assembly</li>
+        <li>Management, Creativity, Decision-making</li>
+        <li>Critical Thinking, Teamwork, Leadership</li>
+      </ul>
+      <h2>Languages</h2>
+      <ul>
+        <li>English, Tamil, Sinhala</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:Nethanpaul325@gmail.com">Nethanpaul325@gmail.com</a></p>
+      <p>Location: Kandana, Sri Lanka</p>
+      <p>Phone: 0725886995</p>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Nethan Paul Wimaladass. All rights reserved.</p>
+  </footer>
+</body>
+</html>
